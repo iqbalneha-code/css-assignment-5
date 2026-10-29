@@ -80,7 +80,7 @@ span {
     flex-direction: column;
     justify-content: space-evenly;
     /* align-items: center; */
-    margin-left: 4em;
+    margin-left: 4.5em;
 }
 
 h1 {
@@ -91,7 +91,7 @@ h1 {
 
 .para {
     color: grey;
-    line-height: 24px;
+    line-height: 28px;
     font-size: 1.3em;
 }
 
@@ -153,18 +153,58 @@ h2 {
 background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVY--YLGc5C5D2Yc28L_lyyXpQxbwbCI5m9XQM1Txg6g&s=10);
 
 }
+.about .para{
+    font-size: 1em;
+    margin-top: 1em;
+}
+.para b{
+    font-size: 1.5em;
+    color: black;
+    text-transform: capitalize;
+}
 
 /* about end */
+/* section 2 start*/
+h1 span{
+    color: rgb(53, 53, 53);
+}
+/* sec 2 end */
 
+/* sec 3 start*/
+.sec3 h2{
+    /* color: white; */
+    color: brown;
+}
+.ratio{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em 0;
+}
+.num{
+    /* color: white; */
+    color: chocolate;
+    display: flex;
+    flex-direction: column;
+    font-weight: 200;
+    align-items: center;
+}
+.num b{
+    font-size: 5em;
+}
+.num span{
+    font-size: 1.5em;
+    /* color: white; */
+    color: rgb(187, 67, 67);
+}
+.num i{
+    font-size: 3.2em;
+}
 
-
-
-
-
-
-
-
-
+.sec3{
+    background: url() center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 
 
