@@ -6,6 +6,7 @@
     font-family: sans-serif;
     text-decoration: none;
 }
+
 /* header start */
 header {
     /* width: 100VW; */
@@ -32,7 +33,7 @@ header>.menu {
     top: 0;
     left: 0;
     right: 0;
-        background-color: color-mix(in oklab, black 75%, blue 25%);
+    background-color: color-mix(in oklab, black 75%, blue 25%);
 
 }
 
@@ -61,10 +62,10 @@ span {
 
 /* header end */
 /* main content start */
-.row{
+.row {
     width: 100%;
     min-height: 100%;
-    background: url(   https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSdpMKrT0ERgAutWNfwmIbwlrgmUb_4XDuKdsYrDTdr2Bz3e7CbNp00Ro&s=10               )  center, no-repeat;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSdpMKrT0ERgAutWNfwmIbwlrgmUb_4XDuKdsYrDTdr2Bz3e7CbNp00Ro&s=10               ) center, no-repeat;
     background-size: cover;
     display: grid;
     grid-template-columns: 55% 45%;
@@ -72,6 +73,7 @@ span {
     min-height: 100vh;
 
 }
+
 .row .content {
     min-height: 60%;
     display: flex;
@@ -80,11 +82,13 @@ span {
     /* align-items: center; */
     margin-left: 4em;
 }
-h1{
+
+h1 {
     font-size: 2.5em;
     color: rgba(255, 255, 255, 0.562);
     text-transform: uppercase;
 }
+
 .para {
     color: grey;
     line-height: 24px;
@@ -102,36 +106,54 @@ h1{
     cursor: pointer;
     margin: 0 2px;
 }
-.btns{
+
+.btns {
     width: 400px;
     display: flex;
 }
-.btn2{
+
+.btn2 {
     color: white;
     background: rgb(81, 211, 81);
 }
-.img{
+
+.img {
     width: 100%;
     height: 60%;
 }
-.img img{
+
+.img img {
     width: 100%;
     min-height: 500px;
     transition: transform 1s ease-in-out;
-     animation: slideUpDown 2s ease-in-out infinite;
+    animation: slideUpDown 2s ease-in-out infinite;
 }
+
 /* home end */
 /* about start */
-.heading{
-    padding-top: 2em ;
+.heading {
+    padding-top: 2em;
     text-align: center;
-background-color: white;
+    background-color: white;
 }
-h2{
+
+h2 {
     font-size: 2.5em;
     text-align: center;
     text-transform: uppercase;
 }
+
+
+
+
+.about {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 2em;
+    /* background-color: white; */
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVY--YLGc5C5D2Yc28L_lyyXpQxbwbCI5m9XQM1Txg6g&s=10);
+
+}
+
 /* about end */
 
 
@@ -149,10 +171,13 @@ h2{
 
 
 @keyframes slideUpDown {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-50px);
-  }
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-50px);
+    }
 }
