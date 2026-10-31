@@ -15,6 +15,19 @@ header {
     /* background-color: transparent; */
 }
 
+
+.menu i {
+    display: none;
+    position: fixed;
+    right: 2em;
+    left: 50px;
+    font-size: 2em;
+    top: 0.5em;
+
+}
+
+
+
 header>.menu {
 
     /* display: none; */
@@ -33,10 +46,7 @@ header>.menu {
     top: 0;
     left: 0;
     right: 0;
-<<<<<<< HEAD
     z-index: 5;
-=======
->>>>>>> 71416200915254505f9e7f66e60e444532ae6d54
     background-color: color-mix(in oklab, black 75%, blue 25%);
 
 }
@@ -61,11 +71,8 @@ nav a:hover {
 }
 
 span {
-<<<<<<< HEAD
     color: rgba(10, 255, 10, 0.575) !important;
-=======
     color: rgba(10, 255, 10, 0.575);
->>>>>>> 71416200915254505f9e7f66e60e444532ae6d54
 }
 
 /* header end */
@@ -125,13 +132,10 @@ h1 {
     background: rgb(81, 211, 81);
 }
 
-<<<<<<< HEAD
 .btn2:hover {
     box-shadow: 2px 2px 3px rgba(81, 211, 81, 0.795);
 }
 
-=======
->>>>>>> 71416200915254505f9e7f66e60e444532ae6d54
 .img {
     width: 100%;
     height: 60%;
@@ -165,10 +169,17 @@ h2 {
     grid-template-columns: repeat(2, 1fr);
     padding: 0 2em;
     /* background-color: white; */
-<<<<<<< HEAD
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVY--YLGc5C5D2Yc28L_lyyXpQxbwbCI5m9XQM1Txg6g&s=10);
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+
+
+/* .para b {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVY--YLGc5C5D2Yc28L_lyyXpQxbwbCI5m9XQM1Txg6g&s=10);
 
-}
+} */
 
 .about .para {
     font-size: 1em;
@@ -176,16 +187,6 @@ h2 {
 }
 
 .para b {
-=======
-background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVY--YLGc5C5D2Yc28L_lyyXpQxbwbCI5m9XQM1Txg6g&s=10);
-
-}
-.about .para{
-    font-size: 1em;
-    margin-top: 1em;
-}
-.para b{
->>>>>>> 71416200915254505f9e7f66e60e444532ae6d54
     font-size: 1.5em;
     color: black;
     text-transform: capitalize;
@@ -193,7 +194,6 @@ background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVY-
 
 /* about end */
 /* section 2 start*/
-<<<<<<< HEAD
 h1 span {
     color: rgb(53, 53, 53);
 }
@@ -206,49 +206,37 @@ h1 span {
     /* color: brown; */
 }
 
-.ratio {
-=======
-h1 span{
-    color: rgb(53, 53, 53);
-}
+/* .ratio h1 span {
+    color: rgb(87, 82, 82);
+} */
+
 /* sec 2 end */
 
 /* sec 3 start*/
-.sec3 h2{
-    /* color: white; */
-    color: brown;
-}
-.ratio{
->>>>>>> 71416200915254505f9e7f66e60e444532ae6d54
+
+.ratio {
     display: flex;
     justify-content: space-evenly;
     padding: 2em 0;
 }
-<<<<<<< HEAD
+
 
 .num {
     color: white;
     /* color: chocolate; */
-=======
-.num{
-    /* color: white; */
-    color: chocolate;
->>>>>>> 71416200915254505f9e7f66e60e444532ae6d54
     display: flex;
     flex-direction: column;
     font-weight: 200;
     align-items: center;
 }
-<<<<<<< HEAD
 
 .num b {
     font-size: 5em;
 }
 
-.num span {
+.ratio .num span {
     font-size: 1.5em;
     color: white;
-    /* color: rgb(187, 67, 67); */
 }
 
 .num i {
@@ -310,18 +298,21 @@ h1 span{
     color: black;
     text-align: center;
 }
-.gallery .img-wrapper{
+
+.gallery .img-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     /* position: relative; */
 }
-.octwrap{
+
+.octwrap {
     width: 200px;
     height: 200px;
     position: relative;
     overflow: hidden;
 }
+
 .wrapper {
     position: absolute;
     top: 0;
@@ -330,7 +321,7 @@ h1 span{
     bottom: 0;
     overflow: hidden;
     transform: rotate(45deg);
-    
+
     /* width: 200px;
     height: 200px; */
     /* clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); */
@@ -343,9 +334,10 @@ h1 span{
     transition: all 0.2s ease;
     object-fit: cover;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
-    
+
 }
-.gallery img{
+
+.gallery img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -358,33 +350,36 @@ h1 span{
 
 
 .wrapper:hover {
-        transform: rotate(406deg);
+    transform: rotate(406deg);
 
 }
 
 
 /* gallery end */
 /* contact start */
-.cont{
+.cont {
     height: 200px;
 }
-.contact-parent{
-width: 100%;
-min-height: 80vh;
-background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsn3Fhj5oMCg9RbPYutAhLJenuKZnQRY2SOdmEjwTyMf5NqW9CPOcSn6c&s=10) center no-repeat;
-background-size: cover;
+
+.contact-parent {
+    width: 100%;
+    min-height: 80vh;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsn3Fhj5oMCg9RbPYutAhLJenuKZnQRY2SOdmEjwTyMf5NqW9CPOcSn6c&s=10) center no-repeat;
+    background-size: cover;
 
 }
-.contact{
+
+.contact {
     display: grid;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     padding: 2em;
-  
+
 }
-form>h2{
-   color: white;
+
+form>h2 {
+    color: white;
     font-size: 1.6em;
     text-transform: none;
     font-weight: normal;
@@ -392,7 +387,8 @@ form>h2{
     padding: 1em 0;
     margin-left: 0.6em;
 }
-form{
+
+form {
     padding: 2em;
     background: black;
     height: 480px;
@@ -402,7 +398,9 @@ form{
     justify-content: space-evenly;
     align-items: center;
 }
-form input, form textarea {
+
+form input,
+form textarea {
     background: transparent;
     width: 90%;
     border: none;
@@ -412,30 +410,34 @@ form input, form textarea {
     margin-bottom: 1.2em;
     color: rgba(199, 198, 198, 0.861);
 }
-.contact-us{
+
+.contact-us {
     height: 480px;
     width: 100%;
     background-color: white;
     padding: 2em;
     padding-top: 3em;
 }
-.p{
+
+.p {
     color: grey;
     line-height: 28px;
 }
-.data{
+
+.data {
     display: grid;
     /* flex-direction: column; */
-    grid-template-columns: 10%   78%;
+    grid-template-columns: 10% 78%;
     justify-content: center;
     align-items: center;
     gap: 2%;
     padding: 1.5em 0;
 }
+
 /* contact end */
 /* footer start */
 
-footer .container2{
+footer .container2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
     justify-content: space-evenly;
@@ -443,13 +445,15 @@ footer .container2{
     background: #000;
     padding: 1em 2em;
 }
-footer .container2 .box h3{
+
+footer .container2 .box h3 {
     color: white;
     font-weight: 600;
     font-size: 2em;
 
 }
-footer .container2 .box a{
+
+footer .container2 .box a {
     display: block;
     font-size: 1em;
     color: white;
@@ -457,45 +461,32 @@ footer .container2 .box a{
     font-weight: lighter;
     transition: all 0.2s ease-in-out;
 }
-footer .container2 .box a i{
+
+footer .container2 .box a i {
     color: rgb(81, 211, 81);
 }
 
 
-footer .container2 .box a:hover{
+footer .container2 .box a:hover {
     margin-left: 2em;
 }
-.intro{
+
+.intro {
     background-color: black;
     color: white;
     font-size: 2em;
     text-align: center;
 }
+
 /* footer  end */
-=======
-.num b{
-    font-size: 5em;
-}
-.num span{
-    font-size: 1.5em;
-    /* color: white; */
-    color: rgb(187, 67, 67);
-}
-.num i{
-    font-size: 3.2em;
-}
-
-.sec3{
-    background: url() center no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
 
 
 
 
 
->>>>>>> 71416200915254505f9e7f66e60e444532ae6d54
+
+
+
 @keyframes slideUpDown {
 
     0%,
@@ -506,19 +497,79 @@ footer .container2 .box a:hover{
     50% {
         transform: translateY(-50px);
     }
-<<<<<<< HEAD
 }
 
 @media (max-width: 850px) {
-    .menu {
-        display: block;
-        position: absolute;
-        right: 1em;
-        top: 1em;
-        font-size: 1.5em;
-        cursor: pointer;
-        color: white;
+    .header {
+
+        display: none;
+        text-align: center;
+        transition: all 0.3s ease-in-out;
+        /* background-color: transparent; */
     }
-=======
->>>>>>> 71416200915254505f9e7f66e60e444532ae6d54
+
+    header {
+        transition: all 0.3s ease-in-out;
+
+    }
+
+    .menu i {
+        display: block;
+        position: fixed;
+        right: 0;
+        font-size: 2em;
+        top: 0.5em;
+
+    }
+
+    header:hover .header {
+        display: block;
+
+    }
+
+    .row {
+        width: 100%;
+        min-height: 100%;
+        display: block;
+        align-items: center;
+
+    }
+
+    .img {
+        width: 100%;
+        height: 30%;
+        margin-top: 5em;
+    }
+
+    .img img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .ratio {
+        flex-direction: column;
+    }
+
+    .btns {
+        width: 200px;
+        flex-direction: column;
+    }
+
+    .btn2 {
+        margin-top: 1em;
+    }
+
+    .row .content {
+        margin-left: 0;
+        text-align: center;
+    }
+    h2 {
+    font-size: 1.2em;
+  
+}
+.gallery .text-wrapper h1 {
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+}
 }
