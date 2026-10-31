@@ -33,7 +33,10 @@ header>.menu {
     top: 0;
     left: 0;
     right: 0;
+<<<<<<< HEAD
     z-index: 5;
+=======
+>>>>>>> 71416200915254505f9e7f66e60e444532ae6d54
     background-color: color-mix(in oklab, black 75%, blue 25%);
 
 }
@@ -58,7 +61,11 @@ nav a:hover {
 }
 
 span {
+<<<<<<< HEAD
     color: rgba(10, 255, 10, 0.575) !important;
+=======
+    color: rgba(10, 255, 10, 0.575);
+>>>>>>> 71416200915254505f9e7f66e60e444532ae6d54
 }
 
 /* header end */
@@ -118,10 +125,13 @@ h1 {
     background: rgb(81, 211, 81);
 }
 
+<<<<<<< HEAD
 .btn2:hover {
     box-shadow: 2px 2px 3px rgba(81, 211, 81, 0.795);
 }
 
+=======
+>>>>>>> 71416200915254505f9e7f66e60e444532ae6d54
 .img {
     width: 100%;
     height: 60%;
@@ -155,6 +165,7 @@ h2 {
     grid-template-columns: repeat(2, 1fr);
     padding: 0 2em;
     /* background-color: white; */
+<<<<<<< HEAD
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVY--YLGc5C5D2Yc28L_lyyXpQxbwbCI5m9XQM1Txg6g&s=10);
 
 }
@@ -165,6 +176,16 @@ h2 {
 }
 
 .para b {
+=======
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVY--YLGc5C5D2Yc28L_lyyXpQxbwbCI5m9XQM1Txg6g&s=10);
+
+}
+.about .para{
+    font-size: 1em;
+    margin-top: 1em;
+}
+.para b{
+>>>>>>> 71416200915254505f9e7f66e60e444532ae6d54
     font-size: 1.5em;
     color: black;
     text-transform: capitalize;
@@ -172,6 +193,7 @@ h2 {
 
 /* about end */
 /* section 2 start*/
+<<<<<<< HEAD
 h1 span {
     color: rgb(53, 53, 53);
 }
@@ -185,19 +207,39 @@ h1 span {
 }
 
 .ratio {
+=======
+h1 span{
+    color: rgb(53, 53, 53);
+}
+/* sec 2 end */
+
+/* sec 3 start*/
+.sec3 h2{
+    /* color: white; */
+    color: brown;
+}
+.ratio{
+>>>>>>> 71416200915254505f9e7f66e60e444532ae6d54
     display: flex;
     justify-content: space-evenly;
     padding: 2em 0;
 }
+<<<<<<< HEAD
 
 .num {
     color: white;
     /* color: chocolate; */
+=======
+.num{
+    /* color: white; */
+    color: chocolate;
+>>>>>>> 71416200915254505f9e7f66e60e444532ae6d54
     display: flex;
     flex-direction: column;
     font-weight: 200;
     align-items: center;
 }
+<<<<<<< HEAD
 
 .num b {
     font-size: 5em;
@@ -430,6 +472,30 @@ footer .container2 .box a:hover{
     text-align: center;
 }
 /* footer  end */
+=======
+.num b{
+    font-size: 5em;
+}
+.num span{
+    font-size: 1.5em;
+    /* color: white; */
+    color: rgb(187, 67, 67);
+}
+.num i{
+    font-size: 3.2em;
+}
+
+.sec3{
+    background: url() center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+
+>>>>>>> 71416200915254505f9e7f66e60e444532ae6d54
 @keyframes slideUpDown {
 
     0%,
@@ -440,6 +506,7 @@ footer .container2 .box a:hover{
     50% {
         transform: translateY(-50px);
     }
+<<<<<<< HEAD
 }
 
 @media (max-width: 850px) {
@@ -452,4 +519,6 @@ footer .container2 .box a:hover{
         cursor: pointer;
         color: white;
     }
+=======
+>>>>>>> 71416200915254505f9e7f66e60e444532ae6d54
 }
